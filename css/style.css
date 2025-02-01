@@ -793,7 +793,34 @@ figcaption {
 
 
 
+table
+{
+  width: 80%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+th, td
+{
+  padding: 10px;
 
+}
+th
+{
+  background-color: #FEF1D7;
+
+}
+tr:nth-child(even)
+{
+  background-color: #CFF;
+}
+tr:nth-child(odd)
+{
+  background-color: #FFF;
+}
+tr.hidden
+{
+  background-color: #FEF1D7;
+}
 
 
 
@@ -811,7 +838,12 @@ figcaption {
 
   padding-top: 15px;
 }
-
+.textsssss {
+  font-size: 1.0em;
+  color: black;
+padding-bottom: 15px;
+  padding-top: 10px;
+}
 .textt {
   font-size: 1.0em;
   color: black;
@@ -825,7 +857,12 @@ figcaption {
   padding-left: 150px;
   padding-top: 15px;
 }
-
+.textssss {
+  font-size: 1.0em;
+  color: black;
+  padding-left: 150px;
+  
+}
 .text_article p {
   font-size: 1.0em;
   color: black;
